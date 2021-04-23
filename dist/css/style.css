@@ -323,7 +323,7 @@ display:flex;
 flex-wrap:wrap;
 padding-top:48px;
 padding-bottom:48px;
-position:relative}#gif_rounded{border-radius: 2px;box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.6), 0 15px 60px 0 rgba(0, 0, 0, 0.6);}.site-footer-inner::before{content:'';
+position:relative}#gif_rounded{border-radius: 20px;box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.6), 0 15px 60px 0 rgba(0, 0, 0, 0.6);}.site-footer-inner::before{content:'';
 position:absolute;
 top:0;
 left:0;
