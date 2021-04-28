@@ -39,7 +39,115 @@ h1 b {font-size: 40%}
 	z-index: 99999999;
 	font-weight:1;
 }
+/*This if for the email capturing*/
 
+::placeholder {
+  color: #d1d1d1;
+}
+
+.email-capture-form {
+      -webkit-text-size-adjust: 100%;
+    line-height: 2;
+    --color-selection: rgba(246,166,166,0.99);
+    --color-bg-primary: #1f2023;
+    --color-bg-primary-alpha: rgba(31,32,35,0.85);
+    --color-bg-secondary: #2d2f34;
+    --color-bg-inverse: #383b40;
+    --color-bg-inverse-soft: rgba(240,240,244,0.32);
+    --color-font-primary: #9b9cab;
+    --color-font-secondary: #9b9cab;
+    --color-bg-command: #525559;
+    --bg-command-active: hsla(0,0%,94.1%,0.08);
+    font-family: "Oxygen", sans-serif;
+    color: var(--color-font-primary);
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
+    background-color: var(--color-bg-inverse);
+    border-color: transparent;
+    border-radius: .8rem;
+    border-width: 2px;
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: .25rem;
+    box-shadow: 0 2px 16px rgba(0,0,0,.08);
+    transition-property: background-color,border-color,color,fill,stroke;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .1s;
+}
+
+
+.email-form-input {
+      -webkit-text-size-adjust: 100%;
+    --color-selection: rgba(246,166,166,0.99);
+    --color-bg-primary: #1f2023;
+    --color-bg-primary-alpha: rgba(31,32,35,0.85);
+    --color-bg-secondary: #2d2f34;
+    --color-bg-inverse: #383b40;
+    --color-bg-inverse-soft: rgba(240,240,244,0.32);
+    --color-font-primary: #f0f0f4;
+    --color-font-secondary: #77787b;
+    --color-bg-command: #525559;
+    --bg-command-active: hsla(0,0%,94.1%,0.08);
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
+    font-family: inherit;
+    margin: 0;
+    overflow: visible;
+    padding: 0;
+    line-height: inherit;
+    background-color: transparent;
+    flex-grow: 1;
+    font-size: .7rem;
+    min-width: 0;
+    padding-left: 0.3rem;
+    padding-right: 0.7rem;
+    color: white;
+    outline: none;
+}
+
+
+.email-form-button {
+      -webkit-text-size-adjust: 100%;
+    --color-selection: #ff7374;
+    --color-bg-primary: #ff7374;
+    --color-bg-primary-alpha: rgba(31,32,35,0.85);
+    --color-bg-secondary: #ff7374;
+    --color-bg-inverse: #383b40;
+    --color-bg-inverse-soft: rgba(240,240,244,0.32);
+    --color-font-primary: #ff7374;
+    --color-font-secondary: #ff7374;
+    --color-bg-command: #ff7374;
+    --bg-command-active: hsla(0,0%,94.1%,0.08);
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
+    font-family: inherit;
+    font-size: 70%;
+    margin: 0;
+    overflow: visible;
+    text-transform: none;
+    background-image: none;
+    cursor: pointer;
+    padding: 0;
+    line-height: inherit;
+    -webkit-appearance: button;
+    --bg-opacity: 1;
+    background-color: #ffa6a6;
+    border-radius: .5rem;
+    opacity: 1;
+    padding-left:  0.5rem;
+    padding-right: 0.5rem;
+    --text-opacity: 1;
+    color: rgba(255,255,255,var(--text-opacity));
+    white-space: nowrap;
+    transition-property: opacity;
+    transition-duration: .2s;
+}
+
+
+/*End of email styles*/
 /*This is for the tutorial section:
 
 
