@@ -4,8 +4,50 @@ html{line-height:1.15;
 body{margin:0}
 article,aside,footer,header,nav,
 section{display:block}
-h1{font-size:2em;margin:0.67em 0}
-h1 b {font-size: 40%}
+h1{font-size:1.8em;margin:0.67em 0}
+
+h1 b {font-size: 28%;font-weight: 20%;}
+
+
+
+#step-heading {
+  line-height: 25px;
+  display:inline-block;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+#testflight-button {
+  background-color: #1895E7;
+  border-radius: 5px;
+
+}
+#soundnuggets-button {
+  border-radius: 5px;
+}
+
+#numSpotsAvail b {
+  color: white;font-weight: bold;
+}
+
+.first-buttons p {
+  margin-top: 8px;
+  margin-bottom: 10px;
+  line-height: 10px;
+  height: 10px;
+  width: 100%;
+  font-size:10px;
+  text-align: center;
+}
+
+.first-buttons a {
+  display: block;
+  margin: auto;
+  width: 80%;
+  max-width: 400px;
+}
+
+
 .grid-container-featured-accounts {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -287,8 +329,8 @@ letter-spacing:0px}@media (min-width: 641px){h3,.h3,blockquote{font-size:32px;
 line-height:42px;
 letter-spacing:0px}}h4,.h4{font-size:28px;
 line-height:34px;
-letter-spacing:0px}h5,.h5,h6,.h6{font-size:20px;
-line-height:30px;
+letter-spacing:0px}h5,.h5,h6,.h6{font-size:15px;
+line-height:40px;
 letter-spacing:-0.1px}@media (max-width: 640px){.h1-mobile{font-size:38px;
 line-height:48px;
 letter-spacing:0px}.h2-mobile{font-size:32px;
@@ -486,7 +528,7 @@ transform:translate(-50%, -50%);
 width:auto !important;
 height:auto;
 max-width:300% !important}.device-mockup{position:relative;
-width:220px;
+width:230px;
 height:auto;
 margin:0 auto;
 z-index:1}.has-animations .features-extended{opacity:0}.has-animations.is-loaded .features-extended{opacity:1}.features-extended-header{margin-bottom:32px}.features-extended-wrap{display:flex;
@@ -553,9 +595,9 @@ left:0;
 width:100%;
 display:block;
 height:1px;
-background:#1E233D}#numSpotsAvail {
-  color: white;font-size: 0.75rem;font-weight: bold;
-}#emailForm {
+background:#1E233D}
+
+#emailForm {
 	    -webkit-text-size-adjust: 100%;
     line-height: 1.5;
     --color-selection: rgba(246,166,166,0.99);
