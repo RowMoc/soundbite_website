@@ -7,7 +7,10 @@ section{display:block}
 h1{font-size:1.8em;margin:0.67em 0}
 
 h1 b {font-size: 28%;font-weight: 20%;}
-
+/*featured account blob*/
+.deatured-account-blob {
+  background-color: # 
+}
 
 
 #step-heading {
@@ -200,6 +203,53 @@ h1 b {font-size: 28%;font-weight: 20%;}
 
 
 /*End of email styles*/
+
+
+/*Sponsors list*/
+.sponsor-list-small {
+  font-family: monospace, sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 900px;
+  padding: 0;
+}
+
+.sponsor-list-small li {
+  display: inline-block;
+  width: 300px;
+  /*max-width: 500px;*/
+  margin: 0 12px 30px;
+}
+/* Photo */
+.sponsor-list-small li > a {
+  display: block;
+  text-decoration: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 75px;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 5px 0 rgb(0 0 0 / 30%), 0 5px 15px 0 rgb(0 0 0 / 30%);
+}
+
+/* Title */
+.sponsor-list-small .details h3 {
+  display: block;
+  font-size: 12px;
+  margin: 0 0 10px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sponsor-list-small .details h3 a {
+  color: #303030;
+  text-decoration: none;
+}
+
+
+
 /*This is for the tutorial section:
 
 
