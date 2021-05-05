@@ -17,6 +17,13 @@ h1 b {font-size: 28%;font-weight: 20%;}
   margin-bottom: 15px;
 }
 
+#step-heading-email-success {
+  line-height: 25px;
+  display:inline-block;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
 #testflight-button {
   background-color: #1895E7;
   border-radius: 5px;
@@ -43,8 +50,8 @@ h1 b {font-size: 28%;font-weight: 20%;}
 .first-buttons a {
   display: block;
   margin: auto;
-  width: 80%;
-  max-width: 400px;
+  width: 85%;
+  max-width: 450px;
 }
 
 
@@ -58,6 +65,7 @@ h1 b {font-size: 28%;font-weight: 20%;}
 #insta-account-img {
 	display: block;
   width: 80%;
+  height: auto;
   max-width: 450px;
   border-radius: 10px;
   box-shadow: 0 4px 5px 0 rgb(0 0 0 / 30%), 0 5px 15px 0 rgb(0 0 0 / 30%);
@@ -103,13 +111,16 @@ h1 b {font-size: 28%;font-weight: 20%;}
     border: 0 solid #e2e8f0;
     background-color: var(--color-bg-inverse);
     border-color: transparent;
-    border-radius: .8rem;
+    border-radius: 5px;
     border-width: 2px;
     display: flex;
     justify-content: space-between;
-    height: 3rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    height: 2.6rem;
+    max-width: 450px;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 0px;
+    /*margin-bottom: 3rem;*/
     padding: .25rem;
     box-shadow: 0 2px 16px rgba(0,0,0,.08);
     transition-property: background-color,border-color,color,fill,stroke;
@@ -141,6 +152,7 @@ h1 b {font-size: 28%;font-weight: 20%;}
     flex-grow: 1;
     font-size: .7rem;
     min-width: 0;
+    
     padding-left: 0.3rem;
     padding-right: 0.7rem;
     color: white;
@@ -173,8 +185,8 @@ h1 b {font-size: 28%;font-weight: 20%;}
     line-height: inherit;
     -webkit-appearance: button;
     --bg-opacity: 1;
-    background-color: #ffa6a6;
-    border-radius: .5rem;
+    background-color: #FF5354;
+    border-radius: 5px;
     opacity: 1;
     padding-left:  0.5rem;
     padding-right: 0.5rem;
@@ -459,7 +471,7 @@ text-transform:uppercase;
 text-decoration:none;
 line-height:16px;
 padding:8px 24px}.header-links a:not(.button):hover,.header-links a:not(.button):active{color:#fff}.hero{position:relative;
-padding-top:128px;
+padding-top:60px;
 padding-bottom:30px;
 z-index:0}.hero .hero-bg{position:absolute;
 top:0;
@@ -483,11 +495,11 @@ height:173px;
 background-image:url("../images/hero-bg-bottom.svg");
 background-size:720px 173px}.hero-inner{position:relative;
 z-index:1}.hero-copy{position:relative;
-margin-bottom:48px}@media (min-width: 641px){.hero{padding-top:160px;
+margin-bottom:20px}@media (min-width: 641px){.hero{padding-top:100px;
 padding-bottom:128px}.hero::before,.hero::after{left:calc(50% - 720px);
 width:1440px}.hero::before{height:318px;
 background-size:1440px 318px}.hero::after{height:347px;
-background-size:1440px 347px}.hero-copy{margin-bottom:88px}.hero-paragraph{padding-left:72px;
+background-size:1440px 347px}.hero-copy{margin-bottom:60px}.hero-paragraph{padding-left:72px;
 padding-right:72px}}.has-animations .hero .hero-bg,.has-animations .hero::before,.has-animations .hero::after,.has-animations .hero-particles-container,.has-animations .site-header,.has-animations .hero-title,.has-animations  .email-capture-form,.has-animations .tutorial,.has-animations .hero-paragraph,.has-animations .hero-cta,.has-animations .hero .mockup-bg,.has-animations .hero .device-mockup{opacity:0}.has-animations.is-loaded .hero .hero-bg{-webkit-animation:heroBg 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) forwards;
 animation:heroBg 0.6s cubic-bezier(0.215, 0.61, 0.355, 1) forwards}.has-animations.is-loaded .hero::before,.has-animations.is-loaded .hero::after{-webkit-animation:heroFadeIn .6s ease forwards .45s;
 animation:heroFadeIn .6s ease forwards .45s}.has-animations.is-loaded .site-header,.has-animations.is-loaded .tutorial,.has-animations.is-loaded  .email-capture-form,.has-animations.is-loaded .hero-particles-container,.has-animations.is-loaded .hero .mockup-bg{-webkit-animation:heroFadeIn .6s ease forwards .45s;
@@ -623,9 +635,9 @@ background:#1E233D}
     display: flex;
     justify-content: space-between;
     height: 3rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    padding: .25rem;
+    /*margin-top: 3rem;*/
+    /*margin-bottom: 3rem;*/
+    /*padding: .25rem;*/
     box-shadow: 0 2px 16px rgba(0,0,0,.08);
     transition-property: background-color,border-color,color,fill,stroke;
     transition-timing-function: cubic-bezier(.4,0,.2,1);

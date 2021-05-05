@@ -27,7 +27,7 @@
         </header>
 
         <main>
-            <section class="hero text-center text-light">
+            <section class="hero text-center text-light" style="padding-bottom: 5px;">
 				<div class="hero-bg"></div>
 				<div class="hero-particles-container">
 					<canvas id="hero-particles"></canvas>
@@ -37,17 +37,11 @@
 						<div class="hero-copy">
 	                        <h1 class="hero-title mt-0" id="top-label">SoundNuggets<b></b></h1>
 
-	                        <p class="hero-paragraph" id="numSpotsAvail">Replace any iMessage text with a movie sound clip.</p>
+	                        <p class="hero-paragraph" style="margin-bottom: 10px;"id="numSpotsAvail">Replace any iMessage text with a movie sound clip.</p>
 	                        <!-- <p class="hero-paragraph" id="numSpotsAvail">Calculating availability...</p> -->
-	                        <!-- <form class="flex justify-between p-1 bg-inverse h-12 rounded-xl shadow-email my-12 transition-colors duration-100 ease-in-out border-2 border-transparent">
-	                        	<input type="email" aria-label="What's your email?" placeholder="What's your email?" class="focus:outline-none min-w-0 flex-grow text-sm md:text-base px-4 bg-transparent text-secondary placeholder-secondary" value="">
-	                        	<button type="submit" class="bg-amie-text whitespace-no-wrap rounded-lg text-white px-4 transition-opacity duration-200 opacity-100">Try it first</button>
-	                        </form> -->
+	                        
 
-	                        <!-- <form class="email-capture-form" id="email-form-element">
-	                        	<input id="email-input-element"type="email" aria-label="What's your email?" placeholder="What's your email?" class="email-form-input" value="">
-	                        	<button id="email-button-hit"type="submit" class="email-form-button">DOWNLOAD</button>
-	                        </form> -->
+
 	                        <div class="first-buttons">
 	                        	<div class="hero-cta">
 		                        	<!-- <h6 id="step-heading" class="hero-title mt-0"><img src='images/TestFlight_Icon.png' style='float: right; border-radius: 20%; margin-left: 20px' width="25" height="25"/> Step 1:</h6> -->
@@ -61,6 +55,22 @@
 									<a  href="https://testflight.apple.com/join/4XPJInZ0" id="soundnuggets-button" target="_blank" class="button button-primary button-wide-mobile">Download SoundNuggets</a>
 									<p class="hero-paragraph">* Downloaded through TestFlight.</p>
 								</div>
+
+								
+								<!-- <form class="flex justify-between p-1 bg-inverse h-12 rounded-xl shadow-email my-12 transition-colors duration-100 ease-in-out border-2 border-transparent">
+		                        	<input type="email" aria-label="What's your email?" placeholder="What's your email?" class="focus:outline-none min-w-0 flex-grow text-sm md:text-base px-4 bg-transparent text-secondary placeholder-secondary" value="">
+		                        	<button type="submit" class="bg-amie-text whitespace-no-wrap rounded-lg text-white px-4 transition-opacity duration-200 opacity-100"></button>
+		                        </form> -->
+		                        <!-- <h6 id="step-heading-email-success" class="hero-title mt-0" style="visibility: hidden;"></h6> -->
+		                        <h6 id="step-heading-email-success" class="hero-title mt-0">Optional:</h6>
+		                        <div id="email-form-elements">
+		                        	
+			                        <form class="email-capture-form" id="email-form-element">
+			                        	<input id="email-input-element"type="email" aria-label="What's your email?" placeholder="What's your email?" class="email-form-input" value="">
+			                        	<button id="email-button-hit"type="submit" class="email-form-button">JOIN</button>
+			                        </form>
+			                        <p class="hero-paragraph" style="margin-bottom: 15px;">* Join mailing list for product updates.</p>
+		                    	</div>
 	                        </div>
 
 
@@ -85,7 +95,6 @@
 							<img id="insta-account-img" src="images/goosebumpscinema.png" loading="lazy" alt="goosebumpscinema">
 							</div>
 						</a>
-	            		
 	            	
 				</div>
             </section>
