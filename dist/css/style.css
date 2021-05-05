@@ -70,6 +70,7 @@ h1 b {font-size: 28%;font-weight: 20%;}
   border-radius: 10px;
   box-shadow: 0 4px 5px 0 rgb(0 0 0 / 30%), 0 5px 15px 0 rgb(0 0 0 / 30%);
   z-index: 2;
+  object-fit: cover;
 }
 
 .featured-accounts {
@@ -473,15 +474,16 @@ line-height:16px;
 padding:8px 24px}.header-links a:not(.button):hover,.header-links a:not(.button):active{color:#fff}.hero{position:relative;
 padding-top:60px;
 padding-bottom:30px;
-z-index:0}.hero .hero-bg{position:absolute;
+z-index:0}.hero .hero-bg{
+  position:absolute;
 top:0;
-bottom:42%;
+bottom:20%;
 left:0;
 right:0;
 background:#0B0D19;
 z-index:-2}.hero .hero-particles-container{position:absolute;
 top:0;
-bottom:42%;
+bottom:20%;
 left:0;
 right:0}.hero::before,.hero::after{content:'';
 position:absolute;
@@ -490,7 +492,7 @@ width:720px;
 background-repeat:no-repeat}.hero::before{top:0;
 height:159px;
 background-image:url("../images/hero-bg-top.svg");
-background-size:720px 159px}.hero::after{bottom:42%;
+background-size:720px 159px}.hero::after{bottom:20%;
 height:173px;
 background-image:url("../images/hero-bg-bottom.svg");
 background-size:720px 173px}.hero-inner{position:relative;
